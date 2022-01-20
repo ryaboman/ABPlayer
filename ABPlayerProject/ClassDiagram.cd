@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ABPlayer.Audiobook" Collapsed="true">
+    <Position X="6.75" Y="5.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <AssociationLine Name="bookmarks" Type="ABPlayer.Bookmarks">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="4.45" Y="-1.748" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>QAAgAAACAEAIAAAAQAAACgBCEAAIUCAAAAQAIAAAAAI=</HashCode>
+      <FileName>Audiobook.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bookmarks" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ABPlayer.Bookmarks" Collapsed="true">
+    <Position X="8.75" Y="5.5" Width="1.5" />
+    <AssociationLine Name="bookmarks" Type="ABPlayer.Bookmark">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="6.225" Y="-2.207" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAQAASAAAgAAAAAAAAAACAAIEAAAA=</HashCode>
+      <FileName>Bookmarks.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="bookmarks" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ABPlayer.Bookmark" Collapsed="true">
+    <Position X="10.5" Y="5.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAQAAAAAAAIAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Bookmarks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABPlayer.Main" Collapsed="true">
+    <Position X="6.25" Y="2.25" Width="3.5" />
+    <AssociationLine Name="currentAudiobook" Type="ABPlayer.Audiobook">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="3.654" Y="-3.709" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>gEAAAYIC+DCEABEgSCmMEAVCQDCRAiHjgOAAYAABAcA=</HashCode>
+      <FileName>Main.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="currentAudiobook" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ABPlayer.Library" Collapsed="true">
+    <Position X="8.5" Y="3.25" Width="3.25" />
+    <AssociationLine Name="audiobooks" Type="ABPlayer.Audiobook">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="3.626" Y="-2.926" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IQAgAAAAESAiAAkAIACAAGICAIAAEAAAIAgYAAAAAAA=</HashCode>
+      <FileName>Library.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="audiobooks" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ABPlayer.AddBookmarks" Collapsed="true">
+    <Position X="4.25" Y="3.25" Width="2.25" />
+    <AssociationLine Name="bookmark" Type="ABPlayer.Bookmark" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.094" Y="3.941" />
+        <Point X="5.094" Y="4.316" />
+        <Point X="5.714" Y="4.316" Type="JumpStart" />
+        <Point X="5.88" Y="4.316" Type="JumpEnd" />
+        <Point X="7.51" Y="4.316" Type="JumpStart" />
+        <Point X="7.677" Y="4.316" Type="JumpEnd" />
+        <Point X="7.964" Y="4.316" Type="JumpStart" />
+        <Point X="8.13" Y="4.316" Type="JumpEnd" />
+        <Point X="11.125" Y="4.316" />
+        <Point X="11.125" Y="5.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-2.986" Y="6.33" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="currentAudiobook" Type="ABPlayer.Audiobook">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.826" Y="-3.014" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>QAAABAAACCAAQBEBQACIAEECEADBgBBAACQAABAEAII=</HashCode>
+      <FileName>AddBookmarks.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bookmark" />
+      <Field Name="currentAudiobook" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
