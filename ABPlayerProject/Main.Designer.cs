@@ -32,13 +32,13 @@
             this.addBookmarks = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.elementHost5 = new System.Windows.Forms.Integration.ElementHost();
-            this.BtnForward = new Controls.BtnForward();
+            this.BtnForward = new RMControls.Player.BtnForward();
             this.elementHost4 = new System.Windows.Forms.Integration.ElementHost();
-            this.BtnReverse = new Controls.BtnReverse();
+            this.BtnReverse = new RMControls.Player.BtnReverse();
             this.elementHost3 = new System.Windows.Forms.Integration.ElementHost();
-            this.BtnStop = new Controls.BtnStop();
+            this.BtnStop = new RMControls.Player.BtnStop();
             this.BtnPlay_userControl = new System.Windows.Forms.Integration.ElementHost();
-            this.BtnPlay = new Controls.BtnPlay();
+            this.BtnPlay = new RMControls.Player.BtnPlay();
             this.cmbBxSelectorSpeedPlayback = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.nameAudiobook = new System.Windows.Forms.Label();
@@ -46,9 +46,9 @@
             this.timeValueCurrentAudiobook = new System.Windows.Forms.Label();
             this.btnLibrary = new System.Windows.Forms.Button();
             this.elementHost2 = new System.Windows.Forms.Integration.ElementHost();
-            this.sliderAudiobook = new Controls.Slider();
+            this.sliderAudiobook = new RMControls.Player.Slider();
             this.elementHost1 = new System.Windows.Forms.Integration.ElementHost();
-            this.sliderAudiofile = new Controls.Slider();
+            this.sliderAudiofile = new RMControls.Player.Slider();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -263,16 +263,16 @@
         private System.Windows.Forms.ComboBox cmbBxSelectorSpeedPlayback;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ToolTip toolTip;
-        private Controls.Slider sliderAudiobook;
+        private RMControls.Player.Slider sliderAudiobook;
         private System.Windows.Forms.Integration.ElementHost BtnPlay_userControl;
-        private Controls.BtnPlay BtnPlay;
+        private RMControls.Player.BtnPlay BtnPlay;
         private System.Windows.Forms.Integration.ElementHost elementHost3;
-        private Controls.BtnStop BtnStop;
+        private RMControls.Player.BtnStop BtnStop;
         private System.Windows.Forms.Integration.ElementHost elementHost4;
-        private Controls.BtnReverse BtnReverse;
+        private RMControls.Player.BtnReverse BtnReverse;
         private System.Windows.Forms.Integration.ElementHost elementHost5;
-        private Controls.BtnForward BtnForward;
-        private Controls.Slider sliderAudiofile;
+        private RMControls.Player.BtnForward BtnForward;
+        private RMControls.Player.Slider sliderAudiofile;
     }
 }
 

@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABPlayerProject", "ABPlayerProject\ABPlayerProject.csproj", "{CF538441-FB58-4FAF-A505-18E4E98B9E88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controls", "Controls\Controls.csproj", "{6DE16C63-33ED-435A-AAEE-2224FA68D4F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMControls.Player", "RMControls\RMControls.Player\RMControls.Player.csproj", "{6DE16C63-33ED-435A-AAEE-2224FA68D4F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

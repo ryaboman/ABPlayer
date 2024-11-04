@@ -34,11 +34,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.indicatorTime = new System.Windows.Forms.Label();
             this.elementHost1 = new System.Windows.Forms.Integration.ElementHost();
-            this.BtnPlay = new Controls.BtnPlay();
+            this.BtnPlay = new RMControls.Player.BtnPlay();
             this.elementHost2 = new System.Windows.Forms.Integration.ElementHost();
-            this.BtnReverse = new Controls.BtnReverse();
+            this.BtnReverse = new RMControls.Player.BtnReverse();
             this.elementHost3 = new System.Windows.Forms.Integration.ElementHost();
-            this.BtnForward = new Controls.BtnForward();
+            this.BtnForward = new RMControls.Player.BtnForward();
             this.textBxNameAudiofile = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -185,9 +185,9 @@
         private System.Windows.Forms.Integration.ElementHost elementHost1;
         private System.Windows.Forms.Integration.ElementHost elementHost2;
         private System.Windows.Forms.Integration.ElementHost elementHost3;
-        private Controls.BtnForward BtnForward;
-        private Controls.BtnReverse BtnReverse;
-        private Controls.BtnPlay BtnPlay;
+        private RMControls.Player.BtnForward BtnForward;
+        private RMControls.Player.BtnReverse BtnReverse;
+        private RMControls.Player.BtnPlay BtnPlay;
         private System.Windows.Forms.TextBox textBxNameAudiofile;
     }
 }
