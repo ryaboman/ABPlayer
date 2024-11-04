@@ -1,5 +1,5 @@
 # RMControls
-WPF library controls for windows Forms app
+WPF library controls for Windows Forms app
 
 ## Description
 At the moment, the library contains only player controls - RMControls.Player.
